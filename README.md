@@ -14,9 +14,11 @@
 1. Download frida server, sebelum download frida server pastikan untuk tahu Arsitektur Laptop (x86 untuk 32 bit atau x86_64 untuk 64 bit), download frida server dari <a href="https://github.com/frida/frida/releases">*link frida server*.</a>
 2. Ekstrak file frida server (di contoh ini menggunakan **frida-server-16.1.4-android-x86_64**), dan pindah ke direktori tersebut menggunakan ***command prompt***.
 3. Push frida server kedalam device android menggunakan perintah ***adb push frida-server-16.1.4-android-x86_64 /data/local/tmp/frida-server-16.1.4-android-x86_64***.
-4. Lakukan perintah ***adb shell*** dan pindah ke direktori menggunakan perintah ***cd /data/local/tmp***.
-5. Selanjutnya, berikan permission ke frida server menggunakan perintah ***chmod 777 frida-server-16.1.4-android-x86_64***.
-5. Jalankan frida server menggunakan perintah ***./frida-server-16.1.4-android-x86_64***.
+4. Lakukan perintah ***adb shell***
+5. Selanjutnya ketikan perintah ***su root***.
+6. Setelah itu, pindah ke direktori menggunakan perintah ***cd /data/local/tmp***.
+7. Selanjutnya, berikan permission ke frida server menggunakan perintah ***chmod 777 frida-server-16.1.4-android-x86_64***.
+8. Jalankan frida server menggunakan perintah ***./frida-server-16.1.4-android-x86_64***.
 
 <h3 align="left">Menjalankan Debugger untuk Android</h3>
 
